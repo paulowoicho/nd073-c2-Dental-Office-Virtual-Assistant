@@ -5,6 +5,8 @@ name: Build and deploy Node.js app to Azure Web App - dentistry-scheduler-api
 
 on:
   push:
+    paths:
+      -  ./starter/ContosoDentistryScheduler
     branches:
       - master
   workflow_dispatch:
